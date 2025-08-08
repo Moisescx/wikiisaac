@@ -38,7 +38,7 @@
 
 body {
     font-weight: 400;
-    background-color: black;
+    background-color: rgb(32, 30, 30);
     overflow: hidden;
     display: flex;
     min-height: 100vh;
@@ -156,13 +156,15 @@ header {
 }
 
 main {
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     background-image: url(../img/fondoGeneral.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 
 }
 
