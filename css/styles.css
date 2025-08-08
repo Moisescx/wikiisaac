@@ -7,14 +7,14 @@
 
 @font-face {
     font-family: 'Digital Disco';
-    src: url('/fonts/DigitalDisco.ttf') format('truetype');
+    src: url('../fonts/DigitalDisco.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Digital Disco Thin';
-    src: url('/fonts/DigitalDisco-Thin.ttf') format('truetype');
+    src: url('../fonts/DigitalDisco-Thin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -130,7 +130,7 @@ header {
 }
 
 .nav-cuadro a {
-    background-image: url(/img/fondoGeneral.webp);
+    background-image: url(../img/fondoGeneral.webp);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10px 15px;
@@ -156,7 +156,7 @@ main {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    background-image: url(/img/fondoGeneral.webp);
+    background-image: url(../img/fondoGeneral.webp);
     background-size: cover;
     background-repeat: no-repeat;
 
