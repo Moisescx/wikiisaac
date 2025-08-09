@@ -87,14 +87,18 @@ p {
     color: #333;
 }
 
-p footer{
-    color: #fbf5f5;
-}
-
 header {
     padding: 20px;
     text-align: left;
     background-color: transparent;
+}
+
+.imageGif img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    margin-bottom: 20px;
 }
 
 .encabezado {
@@ -102,6 +106,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    z-index: 1001;
     background-color: transparent;
 }
 
@@ -170,7 +175,6 @@ main {
 
 footer {
     background-color: hsl(220, 1%, 57%);
-    color: white;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
